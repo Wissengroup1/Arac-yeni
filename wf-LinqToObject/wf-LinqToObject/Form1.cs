@@ -34,6 +34,8 @@ namespace wf_LinqToObject
             {
                 lbListe2.Items.Add(item);
             }
+
+            nuriiiiiiiiii   wissennnnn
         }
     }
 }
