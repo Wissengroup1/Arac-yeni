@@ -24,7 +24,6 @@ namespace wfAracKiralama
             btnDegistir.Visible = false;
             rbKayitEkle.Checked = true;
             btnAracGetir.Visible = false;
-            btnSeciliGetir.Visible = false;
             
         }
 
@@ -34,7 +33,9 @@ namespace wfAracKiralama
             {
                 btnKaydet.Visible = true;
                 btnSil.Visible = false;
-                btnDegistir.Visible = false;           
+                btnDegistir.Visible = false;
+                btnAracGetir.Visible = false;
+                ReadOnlyFalse();
             }
             else if (rbKayitSil.Checked == true)
             {
@@ -42,6 +43,8 @@ namespace wfAracKiralama
                 btnKaydet.Visible = false;
                 btnDegistir.Visible = false;
                 btnAracGetir.Visible = true;
+                ReadOnlyTrue();
+
             }
 
             else
@@ -50,6 +53,64 @@ namespace wfAracKiralama
                 btnKaydet.Visible = false;
                 btnSil.Visible = false;
                 btnAracGetir.Visible = true;
+                ReadOnlyFalse();
+            }
+        }
+        private void rbKayitDegistirme_CheckedChanged(object sender, EventArgs e)
+        {
+            if (rbKayitEkle.Checked == true)
+            {
+                btnKaydet.Visible = true;
+                btnSil.Visible = false;
+                btnDegistir.Visible = false;
+                btnAracGetir.Visible = false;
+                ReadOnlyFalse();
+            }
+            else if (rbKayitSil.Checked == true)
+            {
+                btnSil.Visible = true;
+                btnKaydet.Visible = false;
+                btnDegistir.Visible = false;
+                btnAracGetir.Visible = true;
+                ReadOnlyTrue();
+            }
+
+            else
+            {
+                btnDegistir.Visible = true;
+                btnKaydet.Visible = false;
+                btnSil.Visible = false;
+                btnAracGetir.Visible = true;
+                ReadOnlyFalse();
+            }
+        }
+        private void rbKayitSil_CheckedChanged(object sender, EventArgs e)
+        {
+            if (rbKayitEkle.Checked == true)
+            {
+                btnKaydet.Visible = true;
+                btnSil.Visible = false;
+                btnDegistir.Visible = false;
+                btnAracGetir.Visible = false;
+                ReadOnlyFalse();
+            }
+            else if (rbKayitSil.Checked == true)
+            {
+                btnSil.Visible = true;
+                btnKaydet.Visible = false;
+                btnDegistir.Visible = false;
+                btnAracGetir.Visible = true;
+                ReadOnlyTrue();
+
+            }
+
+            else
+            {
+                btnDegistir.Visible = true;
+                btnKaydet.Visible = false;
+                btnSil.Visible = false;
+                btnAracGetir.Visible = true;
+                ReadOnlyFalse();
             }
         }
 
@@ -70,6 +131,39 @@ namespace wfAracKiralama
             txtSasiNo.Clear();
             txtSanzimanTuru.Clear();
             txtGunlukUcret.Clear();
+        }
+        private void ReadOnlyTrue()
+        {
+            txtMarka.ReadOnly = true;
+            txtModel.ReadOnly = true;
+            txtYil.ReadOnly = true;
+            txtPlaka.ReadOnly = true;
+            txtLokasyon.ReadOnly = true;
+            txtKm.ReadOnly = true;
+            txtKasaTipi.ReadOnly = true;
+            txtRenk.ReadOnly = true;
+            txtKoltukSayisi.ReadOnly = true;
+            txtSHacmi.ReadOnly = true;
+            txtCekis.ReadOnly = true;
+            txtSasiNo.ReadOnly = true;
+            txtGunlukUcret.ReadOnly = true;
+
+        }
+        private void ReadOnlyFalse()
+        {
+            txtMarka.ReadOnly = false;
+            txtModel.ReadOnly = false;
+            txtYil.ReadOnly = false;
+            txtPlaka.ReadOnly = false;
+            txtLokasyon.ReadOnly = false;
+            txtKm.ReadOnly = false;
+            txtKasaTipi.ReadOnly = false;
+            txtRenk.ReadOnly = false;
+            txtKoltukSayisi.ReadOnly = false;
+            txtSHacmi.ReadOnly = false;
+            txtCekis.ReadOnly = false;
+            txtSasiNo.ReadOnly = false;
+            txtGunlukUcret.ReadOnly = false;
         }
 
         private void btnKaydet_Click(object sender, EventArgs e)
@@ -119,38 +213,13 @@ namespace wfAracKiralama
 
         private void btnSil_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void btnDegistir_Click(object sender, EventArgs e)
         {
 
-        }
-
-        private void rbKayitDegistirme_CheckedChanged(object sender, EventArgs e)
-        {
-            if (rbKayitEkle.Checked == true)
-            {
-                btnKaydet.Visible = true;
-                btnSil.Visible = false;
-                btnDegistir.Visible = false;
-            }
-            else if (rbKayitSil.Checked == true)
-            {
-                btnSil.Visible = true;
-                btnKaydet.Visible = false;
-                btnDegistir.Visible = false;
-                btnAracGetir.Visible = true;
-            }
-
-            else
-            {
-                btnDegistir.Visible = true;
-                btnKaydet.Visible = false;
-                btnSil.Visible = false;
-                btnAracGetir.Visible = true;
-            }
-        }
+        }   
 
         private void cbYakitCinsi_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -167,14 +236,11 @@ namespace wfAracKiralama
             frmAracSorgulama frm = new frmAracSorgulama();
             frm.ShowDialog();
 
-            
-        }
-
-        private void btnSeciliGetir_Click(object sender, EventArgs e)
-        {
-
             cArac arc = new cArac();
             cArac a = new cArac();
+
+            txtID.Text = cGenel.AracID.ToString();
+
             arc.AraclariGetirByAracID(cGenel.AracID, a);
 
             txtMarka.Text = a.Marka;
@@ -193,7 +259,7 @@ namespace wfAracKiralama
             txtSanzimanTuru.Text = a.SanzimanTuru;
             txtGunlukUcret.Text = a.GunlukUcret.ToString();
 
+            
         }
-
     }
 }

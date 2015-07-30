@@ -323,10 +323,10 @@ namespace wfAracKiralama
         {
             a._aracID = Convert.ToInt32(dgv.SelectedRows[0].Cells[0].Value);
             //a._marka = dgv.SelectedRows[0].Cells[1].Value.ToString();
-            //a._model =dgv.SelectedRows[0].Cells[2].Value.ToString();
+            //a._model = dgv.SelectedRows[0].Cells[2].Value.ToString();
             //a._plaka =dgv.SelectedRows[0].Cells[3].Value.ToString();
             //a._lokasyon = dgv.SelectedRows[0].Cells[4].Value.ToString();
-            //a._yil =Convert.ToInt32(dgv.SelectedRows[0].Cells[5].Value);
+            //a._yil = Convert.ToInt32(dgv.SelectedRows[0].Cells[5].Value);
             //a._km=Convert.ToInt32(dgv.SelectedRows[0].Cells[6].Value);
             //a._kasaTipi = dgv.SelectedRows[0].Cells[7].Value.ToString();
             //a._renk = dgv.SelectedRows[0].Cells[8].Value.ToString();

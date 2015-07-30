@@ -29,7 +29,6 @@ namespace wfAracKiralama
             cbSanzimanTipi.SelectedIndex = 0;
             cbYakitTuru.SelectedIndex = 0;
 
-
             dgvAraclar.DataSource = a.AraclariGetir();
         }
 
@@ -91,7 +90,7 @@ namespace wfAracKiralama
 
             arc.AracGetir(dgvAraclar, a);
 
-            cGenel.AracID = a.AracID;       
+            cGenel.AracID = a.AracID;
 
             this.Close();
 

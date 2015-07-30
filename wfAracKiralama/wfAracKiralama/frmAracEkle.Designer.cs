@@ -69,7 +69,6 @@
             this.txtYakitCinsi = new System.Windows.Forms.TextBox();
             this.btnAracGetir = new System.Windows.Forms.Button();
             this.txtID = new System.Windows.Forms.TextBox();
-            this.btnSeciliGetir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -349,6 +348,7 @@
             this.rbKayitSil.TabStop = true;
             this.rbKayitSil.Text = "Kayıt Silme";
             this.rbKayitSil.UseVisualStyleBackColor = true;
+            this.rbKayitSil.CheckedChanged += new System.EventHandler(this.rbKayitSil_CheckedChanged);
             // 
             // rbKayitDegistirme
             // 
@@ -420,7 +420,7 @@
             // 
             // btnAracGetir
             // 
-            this.btnAracGetir.Location = new System.Drawing.Point(311, 239);
+            this.btnAracGetir.Location = new System.Drawing.Point(311, 228);
             this.btnAracGetir.Name = "btnAracGetir";
             this.btnAracGetir.Size = new System.Drawing.Size(100, 43);
             this.btnAracGetir.TabIndex = 43;
@@ -436,22 +436,11 @@
             this.txtID.Size = new System.Drawing.Size(18, 20);
             this.txtID.TabIndex = 44;
             // 
-            // btnSeciliGetir
-            // 
-            this.btnSeciliGetir.Location = new System.Drawing.Point(311, 291);
-            this.btnSeciliGetir.Name = "btnSeciliGetir";
-            this.btnSeciliGetir.Size = new System.Drawing.Size(100, 43);
-            this.btnSeciliGetir.TabIndex = 45;
-            this.btnSeciliGetir.Text = "GETİR";
-            this.btnSeciliGetir.UseVisualStyleBackColor = true;
-            this.btnSeciliGetir.Click += new System.EventHandler(this.btnSeciliGetir_Click);
-            // 
             // frmAracEkle
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(632, 402);
-            this.Controls.Add(this.btnSeciliGetir);
+            this.ClientSize = new System.Drawing.Size(632, 438);
             this.Controls.Add(this.txtID);
             this.Controls.Add(this.btnAracGetir);
             this.Controls.Add(this.txtYakitCinsi);
@@ -544,6 +533,5 @@
         private System.Windows.Forms.TextBox txtYakitCinsi;
         private System.Windows.Forms.Button btnAracGetir;
         private System.Windows.Forms.TextBox txtID;
-        private System.Windows.Forms.Button btnSeciliGetir;
     }
 }
