@@ -181,7 +181,7 @@ namespace wfAracKiralama
                 {
                     a.Marka = txtMarka.Text;
                     a.Model = txtModel.Text;
-                    a.Plaka = txtModel.Text;
+                    a.Plaka = txtPlaka.Text;
                     a.Yil = Convert.ToInt32(txtYil.Text);
                     a.Lokasyon = txtLokasyon.Text;
                     a.Km = Convert.ToInt32(txtKm.Text);
@@ -213,12 +213,55 @@ namespace wfAracKiralama
 
         private void btnSil_Click(object sender, EventArgs e)
         {
-            
+            if (txtID.Text != "" || txtID.Text == "0")
+            {
+                if (MessageBox.Show("Silmek İstiyor musunuz?", "Eminmisiniz?", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == System.Windows.Forms.DialogResult.Yes)
+                {
+                    cArac a = new cArac();
+                    if (a.AracSil(txtID.Text))
+                    {
+                        MessageBox.Show("Araç Silindi.");
+                        Temizle();
+                        ReadOnlyFalse();
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("Bir Araç Seçmelisiniz!");
+            }
         }
 
         private void btnDegistir_Click(object sender, EventArgs e)
         {
-
+            if (txtMarka.Text != "" && txtModel.Text != "" && txtPlaka.Text != "" && txtYil.Text != "" && txtKm.Text != "" && txtKasaTipi.Text != "" && txtRenk.Text != "" && txtKoltukSayisi.Text != "" && txtKoltukSayisi.Text != "" && txtYakitCinsi.Text != "" && txtSHacmi.Text != "" && txtCekis.Text != "" && txtSasiNo.Text != "" && txtSanzimanTuru.Text != "" && txtGunlukUcret.Text != "")
+            {
+                cArac a = new cArac();
+                a.AracID = Convert.ToInt32(txtID.Text);
+                a.Marka = txtMarka.Text;
+                a.Model = txtModel.Text;
+                a.Plaka = txtPlaka.Text;
+                a.Lokasyon = txtLokasyon.Text;
+                a.Yil = Convert.ToInt32(txtYil.Text);
+                a.Km = Convert.ToInt32(txtKm.Text);
+                a.KasaTipi = txtKasaTipi.Text;
+                a.Renk = txtRenk.Text;
+                a.KoltukSayisi = txtKoltukSayisi.Text;
+                a.YakitCinsi = txtYakitCinsi.Text;
+                a.SilindirHacmi = Convert.ToInt32(txtSHacmi.Text);
+                a.Cekis = txtCekis.Text;
+                a.SasiNo = txtSasiNo.Text;
+                a.SanzimanTuru = txtSanzimanTuru.Text;
+                a.GunlukUcret = Convert.ToDecimal(txtGunlukUcret.Text);
+                if (a.AracGuncelle(a))
+                {
+                    MessageBox.Show("Değişiklikler Yapıldı.");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Eksik Bilgiler Bulunmaktadır!");
+            }
         }   
 
         private void cbYakitCinsi_SelectedIndexChanged(object sender, EventArgs e)

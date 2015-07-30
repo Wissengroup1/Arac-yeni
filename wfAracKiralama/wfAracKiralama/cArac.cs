@@ -276,6 +276,7 @@ namespace wfAracKiralama
 
         public bool AracGuncelle(cArac a)
         {
+            bool Sonuc = false;
             SqlConnection conn = new SqlConnection(cGenel.connStr);
             SqlCommand comm = new SqlCommand("Update Arac Set Marka=@Marka,Model=@Model, Plaka=@Plaka, Lokasyon=@Lokasyon, Yil=@Yil,Km=@Km,KasaTipi=@KasaTipi,Renk=@Renk,KoltukSayisi=@KoltukSayisi,YakitCinsi=@YakitCinsi,SilindirHacmi=@SilindirHacmi,Cekis=@Cekis,SasiNo=@SasiNo,SanzimanTuru=@SanzimanTuru,GunlukUcret=@GunlukUcret where AracID=@AracID", conn);
 
@@ -297,8 +298,15 @@ namespace wfAracKiralama
             comm.Parameters.Add("@GunlukUcret", SqlDbType.Money).Value = a._gunlukUcret;
 
             if (conn.State == ConnectionState.Closed) conn.Open();
-            bool Sonuc = Convert.ToBoolean(comm.ExecuteNonQuery());
-            conn.Close();
+            try
+            {
+                Sonuc = Convert.ToBoolean(comm.ExecuteNonQuery());
+            }
+            catch (SqlException ex)
+            {
+                string hata = ex.Message;
+            }
+            finally { conn.Close(); }
             return Sonuc;
         }
 
@@ -376,6 +384,26 @@ namespace wfAracKiralama
                 string hata = ex.Message;
             }
         }
+        public bool AracSil(string AracID)
+        {
+            bool Sonuc = false;
+            SqlConnection conn = new SqlConnection(cGenel.connStr);
+            SqlCommand comm = new SqlCommand("Update Arac set Silindi=1,Kiralanabilir=0 where AracID=@AracID", conn);//kiralanabilir column u da 1 yapılacak.
+            comm.Parameters.Add("@AracID", SqlDbType.VarChar).Value = AracID;
+            if (conn.State == ConnectionState.Closed) conn.Open();
+            try
+            {
+                Sonuc = Convert.ToBoolean(comm.ExecuteNonQuery());
+            }
+            catch (SqlException ex)
+            {
+                string hata = ex.Message;
+                MessageBox.Show(hata);
+            }
+            finally { conn.Close(); }
+            return Sonuc;
+        }
+       
     }
 }
  
