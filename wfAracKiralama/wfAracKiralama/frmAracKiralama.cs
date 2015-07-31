@@ -114,6 +114,17 @@ namespace wfAracKiralama
         {
             frmAracSorgulama frm = new frmAracSorgulama();
             frm.ShowDialog();
+
+            cArac arc = new cArac();
+            cArac a = new cArac();
+
+            txtAracID.Text = cGenel.AracID.ToString();
+
+            arc.AraclariGetirByAracID(cGenel.AracID, a);
+
+            txtMarka.Text = a.Marka;
+            txtModel.Text = a.Model;
+            txtGunlukUcret.Text = a.GunlukUcret.ToString();
         }
     }
 }

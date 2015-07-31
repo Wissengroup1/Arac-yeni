@@ -21,13 +21,16 @@ namespace wfAracKiralama
 
         private void frmAracSorgulama_Load(object sender, EventArgs e)
         {
+
+            this.Top = 0;
+            this.Left = 0;
             List<cArac> list = new List<cArac>();
             cArac a = new cArac();
 
             txtMarkayaGore.Text = "";
             cbKiraDurumu.SelectedIndex = 0;
             cbSanzimanTipi.SelectedIndex = 0;
-            cbYakitTuru.SelectedIndex = 0;
+            cbYakitTuru.SelectedIndex = 0;           
 
             dgvAraclar.DataSource = a.AraclariGetir();
         }

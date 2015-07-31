@@ -65,3 +65,16 @@ C:\Users\KUBRA\Desktop\Kurs\Arac-yeni\wfAracKiralama\wfAracKiralama\obj\Debug\wf
 C:\Users\KUBRA\Desktop\Kurs\Arac-yeni\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.frmMusteriSorgulama.resources
 C:\Users\KUBRA\Desktop\Kurs\Arac-yeni\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.Properties.Resources.resources
 C:\Users\KUBRA\Desktop\Kurs\Arac-yeni\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.csproj.GenerateResource.Cache
+C:\Users\wissen\Documents\GitHub\Arac-yeni\wfAracKiralama\wfAracKiralama\bin\Debug\wfAracKiralama.exe.config
+C:\Users\wissen\Documents\GitHub\Arac-yeni\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.exe
+C:\Users\wissen\Documents\GitHub\Arac-yeni\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.pdb
+C:\Users\wissen\Documents\GitHub\Arac-yeni\wfAracKiralama\wfAracKiralama\bin\Debug\wfAracKiralama.exe
+C:\Users\wissen\Documents\GitHub\Arac-yeni\wfAracKiralama\wfAracKiralama\bin\Debug\wfAracKiralama.pdb
+C:\Users\wissen\Documents\GitHub\Arac-yeni\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.csprojResolveAssemblyReference.cache
+C:\Users\wissen\Documents\GitHub\Arac-yeni\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.frmAnaSayfa.resources
+C:\Users\wissen\Documents\GitHub\Arac-yeni\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.frmAracEkle.resources
+C:\Users\wissen\Documents\GitHub\Arac-yeni\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.frmAracKiralama.resources
+C:\Users\wissen\Documents\GitHub\Arac-yeni\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.frmAracSorgulama.resources
+C:\Users\wissen\Documents\GitHub\Arac-yeni\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.frmMusteriSorgulama.resources
+C:\Users\wissen\Documents\GitHub\Arac-yeni\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.Properties.Resources.resources
+C:\Users\wissen\Documents\GitHub\Arac-yeni\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.csproj.GenerateResource.Cache

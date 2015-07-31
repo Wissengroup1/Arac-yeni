@@ -47,7 +47,8 @@
     <Compile Include="cArac.cs" />
     <Compile Include="cFirma.cs" />
     <Compile Include="cGenel.cs" />
-    <Compile Include="cMusteri.cs" />
+    <Compile Include="cBireyselMusteri.cs" />
+    <Compile Include="cKurumsalMusteri.cs" />
     <Compile Include="frmAnaSayfa.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -19,16 +19,19 @@ namespace wfAracKiralama
 
         private void frmAracEkle_Load(object sender, EventArgs e)
         {
+            this.Top = 0;
+            this.Left = 0;
             btnKaydet.Visible = false;
             btnSil.Visible = false;
             btnDegistir.Visible = false;
             rbKayitEkle.Checked = true;
             btnAracGetir.Visible = false;
-            
+          
         }
 
         private void rbKayitEkle_CheckedChanged(object sender, EventArgs e)
         {
+            Temizle();
             if (rbKayitEkle.Checked == true)
             {
                 btnKaydet.Visible = true;
@@ -58,6 +61,7 @@ namespace wfAracKiralama
         }
         private void rbKayitDegistirme_CheckedChanged(object sender, EventArgs e)
         {
+            Temizle();
             if (rbKayitEkle.Checked == true)
             {
                 btnKaydet.Visible = true;
@@ -86,6 +90,7 @@ namespace wfAracKiralama
         }
         private void rbKayitSil_CheckedChanged(object sender, EventArgs e)
         {
+            Temizle();
             if (rbKayitEkle.Checked == true)
             {
                 btnKaydet.Visible = true;
@@ -131,6 +136,8 @@ namespace wfAracKiralama
             txtSasiNo.Clear();
             txtSanzimanTuru.Clear();
             txtGunlukUcret.Clear();
+            cbSanzimanTuru.SelectedIndex = -1;
+            cbYakitCinsi.SelectedIndex = -1;
         }
         private void ReadOnlyTrue()
         {
@@ -256,6 +263,7 @@ namespace wfAracKiralama
                 if (a.AracGuncelle(a))
                 {
                     MessageBox.Show("Değişiklikler Yapıldı.");
+                    Temizle();
                 }
             }
             else
@@ -301,7 +309,6 @@ namespace wfAracKiralama
             txtSasiNo.Text = a.SasiNo;
             txtSanzimanTuru.Text = a.SanzimanTuru;
             txtGunlukUcret.Text = a.GunlukUcret.ToString();
-
             
         }
     }

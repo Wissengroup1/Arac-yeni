@@ -20,6 +20,8 @@ namespace wfAracKiralama
 
         private void frmMusteriSorgulama_Load(object sender, EventArgs e)
         {
+            this.Top = 0;
+            this.Left = 0;
             rbBireysel.Visible = false;
             rbKurumsal.Visible = false;
 
@@ -57,7 +59,7 @@ namespace wfAracKiralama
             {
                 DataTable dt = new DataTable();
                 cGenel.MusteriTipi = "Bireysel Müşteri";
-                cMusteri mus = new cMusteri();
+                cBireyselMusteri mus = new cBireyselMusteri();
                 dt = mus.BireyselMusterileriGetir();
                 dgvMusteri.DataSource = dt;
             }
@@ -70,7 +72,7 @@ namespace wfAracKiralama
             {
                 DataTable dt = new DataTable();
                 cGenel.MusteriTipi = "Kurumsal Müşteri";
-                cMusteri mus = new cMusteri();
+                cKurumsalMusteri mus = new cKurumsalMusteri();
                 dt = mus.KurumsalMusterileriGetir();
                 dgvMusteri.DataSource = dt;
             }
