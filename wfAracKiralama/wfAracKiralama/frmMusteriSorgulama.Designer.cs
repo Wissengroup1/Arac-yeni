@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMusteriSorgulama));
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtAdaGore = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.dgvMusteri = new System.Windows.Forms.DataGridView();
             this.rbBireysel = new System.Windows.Forms.RadioButton();
@@ -37,17 +37,18 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvMusteri)).BeginInit();
             this.SuspendLayout();
             // 
-            // textBox1
+            // txtAdaGore
             // 
-            this.textBox1.Location = new System.Drawing.Point(77, 69);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 0;
+            this.txtAdaGore.Location = new System.Drawing.Point(77, 69);
+            this.txtAdaGore.Name = "txtAdaGore";
+            this.txtAdaGore.Size = new System.Drawing.Size(100, 20);
+            this.txtAdaGore.TabIndex = 0;
+            this.txtAdaGore.TextChanged += new System.EventHandler(this.txtAdaGore_TextChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(83, 53);
+            this.label1.Location = new System.Drawing.Point(78, 53);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(85, 13);
             this.label1.TabIndex = 1;
@@ -99,7 +100,7 @@
             this.Controls.Add(this.rbBireysel);
             this.Controls.Add(this.dgvMusteri);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtAdaGore);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmMusteriSorgulama";
             this.Text = "Müşteri Sorgulama";
@@ -112,7 +113,7 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtAdaGore;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dgvMusteri;
         private System.Windows.Forms.RadioButton rbBireysel;

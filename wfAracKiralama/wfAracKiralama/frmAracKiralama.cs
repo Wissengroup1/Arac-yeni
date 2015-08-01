@@ -36,7 +36,7 @@ namespace wfAracKiralama
             if (b + 1 > 0)
             {
                 kiragun = b + 1;
-                txtTutar.Text = Convert.ToString(kiragun*80) + "TL";
+                txtTutar.Text = Convert.ToString(kiragun*Convert.ToDecimal(txtGunlukUcret.Text)) + "TL";
             }
 
             else 
@@ -57,6 +57,7 @@ namespace wfAracKiralama
                 lblTelefon.Text = "Telefon";
                 lblTelefon.Visible = true;
                 txtTelefon.Visible = true;
+                btnAracEkle.Visible = false;
             }
             else if (cbMusteriTipi.SelectedIndex == 1)
             {
@@ -65,19 +66,34 @@ namespace wfAracKiralama
                 lblTCNo.Text = "Telefon";
                 lblTelefon.Visible = false;
                 txtTelefon.Visible = false;
+                btnAracEkle.Visible = true;
                 
             }
         }
 
         private void btnMusteriGetir_Click(object sender, EventArgs e)
-        {
+        {          
             frmMusteriSorgulama frm = new frmMusteriSorgulama();
-            
+            cGenel.FormMusteri = "Musteri Getir";
 
             if (cbMusteriTipi.Text == "Bireysel Müşteri")
             {
                 cGenel.MusteriTipi = "Bireysel Müşteri";
+
                 frm.ShowDialog();
+
+                cBireyselMusteri bm = new cBireyselMusteri();
+                cBireyselMusteri bmg = new cBireyselMusteri();
+
+                txtMusteriID.Text = cGenel.BireyselMusteriID.ToString();
+
+                bmg.MusterileriGetirByMusteriID(cGenel.BireyselMusteriID, bm);
+
+                txtMusteriID.Text = bm.MusteriID.ToString();
+                txtMusteriAd.Text = bm.MusteriAd;
+                txtSoyad.Text = bm.MusteriSoyad;
+                txtTCNo.Text = bm.KimlikNo;
+                txtTelefon.Text = bm.Telefon;
                 
                 
             }
@@ -85,6 +101,17 @@ namespace wfAracKiralama
             {
                 cGenel.MusteriTipi = "Kurumsal Müşteri";
                 frm.ShowDialog();
+
+                cKurumsalMusteri kr = new cKurumsalMusteri();
+                cKurumsalMusteri krm = new cKurumsalMusteri();
+
+                txtMusteriID.Text = cGenel.KurumsalMusteriID.ToString();
+
+                krm.MusterileriGetirByFirmaID(cGenel.KurumsalMusteriID, kr);
+
+                txtMusteriAd.Text = kr.Unvan;
+                txtSoyad.Text = kr.Yetkili;
+                txtTCNo.Text = kr.Telefon;
                 
             }
 
@@ -125,6 +152,11 @@ namespace wfAracKiralama
             txtMarka.Text = a.Marka;
             txtModel.Text = a.Model;
             txtGunlukUcret.Text = a.GunlukUcret.ToString();
+        }
+
+        private void btnAracEkle_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

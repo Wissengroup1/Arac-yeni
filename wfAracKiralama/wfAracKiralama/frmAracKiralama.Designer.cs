@@ -368,6 +368,7 @@
             this.btnAracEkle.TabIndex = 44;
             this.btnAracEkle.Text = "Araç Ekle";
             this.btnAracEkle.UseVisualStyleBackColor = true;
+            this.btnAracEkle.Click += new System.EventHandler(this.btnAracEkle_Click);
             // 
             // frmAracKiralama
             // 

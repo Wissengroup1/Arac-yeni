@@ -73,6 +73,18 @@
     <Compile Include="frmAracKiralama.Designer.cs">
       <DependentUpon>frmAracKiralama.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmBireyselMüşteriEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBireyselMüşteriEkle.Designer.cs">
+      <DependentUpon>frmBireyselMüşteriEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmKurumsalMusteriEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKurumsalMusteriEkle.Designer.cs">
+      <DependentUpon>frmKurumsalMusteriEkle.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMusteriSorgulama.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,6 +104,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmAracSorgulama.resx">
       <DependentUpon>frmAracSorgulama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBireyselMüşteriEkle.resx">
+      <DependentUpon>frmBireyselMüşteriEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKurumsalMusteriEkle.resx">
+      <DependentUpon>frmKurumsalMusteriEkle.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMusteriSorgulama.resx">
       <DependentUpon>frmMusteriSorgulama.cs</DependentUpon>

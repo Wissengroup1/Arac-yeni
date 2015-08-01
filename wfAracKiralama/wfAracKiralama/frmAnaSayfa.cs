@@ -72,5 +72,17 @@ namespace wfAracKiralama
             frmAracSorgulama frm = new frmAracSorgulama();
             FormAcikmi(frm);
         }
+
+        private void kurumsalMüşteriEkleToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmKurumsalMusteriEkle frm = new frmKurumsalMusteriEkle();
+            FormAcikmi(frm);
+        }
+
+        private void bireyselMüşteriEkleToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmBireyselMüşteriEkle frm = new frmBireyselMüşteriEkle();
+            FormAcikmi(frm);
+        }
     }
 }

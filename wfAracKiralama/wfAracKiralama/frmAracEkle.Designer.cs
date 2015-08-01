@@ -34,41 +34,41 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtPlaka = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.txtYil = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.txtRenk = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.txtKasaTipi = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.txtKm = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.txtLokasyon = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.txtCekis = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.txtSHacmi = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.txtKoltukSayisi = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
             this.txtGunlukUcret = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.txtSasiNo = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
             this.btnKaydet = new System.Windows.Forms.Button();
-            this.btnSil = new System.Windows.Forms.Button();
             this.label13 = new System.Windows.Forms.Label();
             this.rbKayitEkle = new System.Windows.Forms.RadioButton();
-            this.rbKayitSil = new System.Windows.Forms.RadioButton();
             this.rbKayitDegistirme = new System.Windows.Forms.RadioButton();
             this.btnDegistir = new System.Windows.Forms.Button();
-            this.cbSanzimanTuru = new System.Windows.Forms.ComboBox();
-            this.cbYakitCinsi = new System.Windows.Forms.ComboBox();
             this.txtSanzimanTuru = new System.Windows.Forms.TextBox();
-            this.txtYakitCinsi = new System.Windows.Forms.TextBox();
             this.btnAracGetir = new System.Windows.Forms.Button();
             this.txtID = new System.Windows.Forms.TextBox();
+            this.cbSanzimanTuru = new System.Windows.Forms.ComboBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtYil = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.txtLokasyon = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.txtKm = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txtKasaTipi = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txtRenk = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.txtKoltukSayisi = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.txtSHacmi = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.txtCekis = new System.Windows.Forms.TextBox();
+            this.cbYakitCinsi = new System.Windows.Forms.ComboBox();
+            this.txtYakitCinsi = new System.Windows.Forms.TextBox();
+            this.rbKayitSil = new System.Windows.Forms.RadioButton();
+            this.btnSil = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -118,143 +118,6 @@
             this.label3.Size = new System.Drawing.Size(34, 13);
             this.label3.TabIndex = 4;
             this.label3.Text = "Plaka";
-            // 
-            // txtYil
-            // 
-            this.txtYil.Location = new System.Drawing.Point(114, 121);
-            this.txtYil.Name = "txtYil";
-            this.txtYil.Size = new System.Drawing.Size(100, 20);
-            this.txtYil.TabIndex = 7;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(40, 124);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(18, 13);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "Yıl";
-            // 
-            // txtRenk
-            // 
-            this.txtRenk.Location = new System.Drawing.Point(114, 225);
-            this.txtRenk.Name = "txtRenk";
-            this.txtRenk.Size = new System.Drawing.Size(100, 20);
-            this.txtRenk.TabIndex = 15;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(40, 228);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(33, 13);
-            this.label5.TabIndex = 14;
-            this.label5.Text = "Renk";
-            // 
-            // txtKasaTipi
-            // 
-            this.txtKasaTipi.Location = new System.Drawing.Point(114, 199);
-            this.txtKasaTipi.Name = "txtKasaTipi";
-            this.txtKasaTipi.Size = new System.Drawing.Size(100, 20);
-            this.txtKasaTipi.TabIndex = 13;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(40, 202);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(51, 13);
-            this.label6.TabIndex = 12;
-            this.label6.Text = "Kasa Tipi";
-            // 
-            // txtKm
-            // 
-            this.txtKm.Location = new System.Drawing.Point(114, 173);
-            this.txtKm.Name = "txtKm";
-            this.txtKm.Size = new System.Drawing.Size(100, 20);
-            this.txtKm.TabIndex = 11;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(40, 176);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(22, 13);
-            this.label7.TabIndex = 10;
-            this.label7.Text = "Km";
-            // 
-            // txtLokasyon
-            // 
-            this.txtLokasyon.Location = new System.Drawing.Point(114, 147);
-            this.txtLokasyon.Name = "txtLokasyon";
-            this.txtLokasyon.Size = new System.Drawing.Size(100, 20);
-            this.txtLokasyon.TabIndex = 9;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(40, 150);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(53, 13);
-            this.label8.TabIndex = 8;
-            this.label8.Text = "Lokasyon";
-            // 
-            // txtCekis
-            // 
-            this.txtCekis.Location = new System.Drawing.Point(114, 329);
-            this.txtCekis.Name = "txtCekis";
-            this.txtCekis.Size = new System.Drawing.Size(100, 20);
-            this.txtCekis.TabIndex = 23;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(40, 332);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(33, 13);
-            this.label9.TabIndex = 22;
-            this.label9.Text = "Çekiş";
-            // 
-            // txtSHacmi
-            // 
-            this.txtSHacmi.Location = new System.Drawing.Point(114, 303);
-            this.txtSHacmi.Name = "txtSHacmi";
-            this.txtSHacmi.Size = new System.Drawing.Size(100, 20);
-            this.txtSHacmi.TabIndex = 21;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(40, 306);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(70, 13);
-            this.label10.TabIndex = 20;
-            this.label10.Text = "Silindir Hacmi";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(40, 280);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(56, 13);
-            this.label11.TabIndex = 18;
-            this.label11.Text = "Yakıt Cinsi";
-            // 
-            // txtKoltukSayisi
-            // 
-            this.txtKoltukSayisi.Location = new System.Drawing.Point(114, 251);
-            this.txtKoltukSayisi.Name = "txtKoltukSayisi";
-            this.txtKoltukSayisi.Size = new System.Drawing.Size(100, 20);
-            this.txtKoltukSayisi.TabIndex = 17;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(40, 254);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(67, 13);
-            this.label12.TabIndex = 16;
-            this.label12.Text = "Koltuk Sayısı";
             // 
             // txtGunlukUcret
             // 
@@ -307,16 +170,6 @@
             this.btnKaydet.UseVisualStyleBackColor = true;
             this.btnKaydet.Click += new System.EventHandler(this.btnKaydet_Click);
             // 
-            // btnSil
-            // 
-            this.btnSil.Location = new System.Drawing.Point(311, 176);
-            this.btnSil.Name = "btnSil";
-            this.btnSil.Size = new System.Drawing.Size(100, 43);
-            this.btnSil.TabIndex = 32;
-            this.btnSil.Text = "Sil";
-            this.btnSil.UseVisualStyleBackColor = true;
-            this.btnSil.Click += new System.EventHandler(this.btnSil_Click);
-            // 
             // label13
             // 
             this.label13.AutoSize = true;
@@ -337,18 +190,6 @@
             this.rbKayitEkle.Text = "Kayıt Ekleme";
             this.rbKayitEkle.UseVisualStyleBackColor = true;
             this.rbKayitEkle.CheckedChanged += new System.EventHandler(this.rbKayitEkle_CheckedChanged);
-            // 
-            // rbKayitSil
-            // 
-            this.rbKayitSil.AutoSize = true;
-            this.rbKayitSil.Location = new System.Drawing.Point(521, 146);
-            this.rbKayitSil.Name = "rbKayitSil";
-            this.rbKayitSil.Size = new System.Drawing.Size(76, 17);
-            this.rbKayitSil.TabIndex = 36;
-            this.rbKayitSil.TabStop = true;
-            this.rbKayitSil.Text = "Kayıt Silme";
-            this.rbKayitSil.UseVisualStyleBackColor = true;
-            this.rbKayitSil.CheckedChanged += new System.EventHandler(this.rbKayitSil_CheckedChanged);
             // 
             // rbKayitDegistirme
             // 
@@ -372,36 +213,6 @@
             this.btnDegistir.UseVisualStyleBackColor = true;
             this.btnDegistir.Click += new System.EventHandler(this.btnDegistir_Click);
             // 
-            // cbSanzimanTuru
-            // 
-            this.cbSanzimanTuru.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbSanzimanTuru.DropDownWidth = 80;
-            this.cbSanzimanTuru.FormattingEnabled = true;
-            this.cbSanzimanTuru.Items.AddRange(new object[] {
-            "Manuel",
-            "Otomatik",
-            "Tiptronic"});
-            this.cbSanzimanTuru.Location = new System.Drawing.Point(421, 68);
-            this.cbSanzimanTuru.Name = "cbSanzimanTuru";
-            this.cbSanzimanTuru.Size = new System.Drawing.Size(18, 21);
-            this.cbSanzimanTuru.TabIndex = 39;
-            this.cbSanzimanTuru.SelectedIndexChanged += new System.EventHandler(this.cbSanzimanTuru_SelectedIndexChanged);
-            // 
-            // cbYakitCinsi
-            // 
-            this.cbYakitCinsi.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbYakitCinsi.DropDownWidth = 80;
-            this.cbYakitCinsi.FormattingEnabled = true;
-            this.cbYakitCinsi.Items.AddRange(new object[] {
-            "Dizel",
-            "Benzin",
-            "Benzin/LPG"});
-            this.cbYakitCinsi.Location = new System.Drawing.Point(211, 276);
-            this.cbYakitCinsi.Name = "cbYakitCinsi";
-            this.cbYakitCinsi.Size = new System.Drawing.Size(18, 21);
-            this.cbYakitCinsi.TabIndex = 40;
-            this.cbYakitCinsi.SelectedIndexChanged += new System.EventHandler(this.cbYakitCinsi_SelectedIndexChanged);
-            // 
             // txtSanzimanTuru
             // 
             this.txtSanzimanTuru.Location = new System.Drawing.Point(311, 69);
@@ -409,14 +220,6 @@
             this.txtSanzimanTuru.ReadOnly = true;
             this.txtSanzimanTuru.Size = new System.Drawing.Size(113, 20);
             this.txtSanzimanTuru.TabIndex = 41;
-            // 
-            // txtYakitCinsi
-            // 
-            this.txtYakitCinsi.Location = new System.Drawing.Point(114, 277);
-            this.txtYakitCinsi.Name = "txtYakitCinsi";
-            this.txtYakitCinsi.ReadOnly = true;
-            this.txtYakitCinsi.Size = new System.Drawing.Size(100, 20);
-            this.txtYakitCinsi.TabIndex = 42;
             // 
             // btnAracGetir
             // 
@@ -435,6 +238,203 @@
             this.txtID.ReadOnly = true;
             this.txtID.Size = new System.Drawing.Size(18, 20);
             this.txtID.TabIndex = 44;
+            // 
+            // cbSanzimanTuru
+            // 
+            this.cbSanzimanTuru.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbSanzimanTuru.DropDownWidth = 80;
+            this.cbSanzimanTuru.FormattingEnabled = true;
+            this.cbSanzimanTuru.Items.AddRange(new object[] {
+            "Manuel",
+            "Otomatik",
+            "Tiptronic"});
+            this.cbSanzimanTuru.Location = new System.Drawing.Point(421, 68);
+            this.cbSanzimanTuru.Name = "cbSanzimanTuru";
+            this.cbSanzimanTuru.Size = new System.Drawing.Size(18, 21);
+            this.cbSanzimanTuru.TabIndex = 39;
+            this.cbSanzimanTuru.SelectedIndexChanged += new System.EventHandler(this.cbSanzimanTuru_SelectedIndexChanged);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(40, 124);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(18, 13);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "Yıl";
+            // 
+            // txtYil
+            // 
+            this.txtYil.Location = new System.Drawing.Point(114, 121);
+            this.txtYil.Name = "txtYil";
+            this.txtYil.Size = new System.Drawing.Size(100, 20);
+            this.txtYil.TabIndex = 7;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(40, 150);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(53, 13);
+            this.label8.TabIndex = 8;
+            this.label8.Text = "Lokasyon";
+            // 
+            // txtLokasyon
+            // 
+            this.txtLokasyon.Location = new System.Drawing.Point(114, 147);
+            this.txtLokasyon.Name = "txtLokasyon";
+            this.txtLokasyon.Size = new System.Drawing.Size(100, 20);
+            this.txtLokasyon.TabIndex = 9;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(40, 176);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(22, 13);
+            this.label7.TabIndex = 10;
+            this.label7.Text = "Km";
+            // 
+            // txtKm
+            // 
+            this.txtKm.Location = new System.Drawing.Point(114, 173);
+            this.txtKm.Name = "txtKm";
+            this.txtKm.Size = new System.Drawing.Size(100, 20);
+            this.txtKm.TabIndex = 11;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(40, 202);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(51, 13);
+            this.label6.TabIndex = 12;
+            this.label6.Text = "Kasa Tipi";
+            // 
+            // txtKasaTipi
+            // 
+            this.txtKasaTipi.Location = new System.Drawing.Point(114, 199);
+            this.txtKasaTipi.Name = "txtKasaTipi";
+            this.txtKasaTipi.Size = new System.Drawing.Size(100, 20);
+            this.txtKasaTipi.TabIndex = 13;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(40, 228);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(33, 13);
+            this.label5.TabIndex = 14;
+            this.label5.Text = "Renk";
+            // 
+            // txtRenk
+            // 
+            this.txtRenk.Location = new System.Drawing.Point(114, 225);
+            this.txtRenk.Name = "txtRenk";
+            this.txtRenk.Size = new System.Drawing.Size(100, 20);
+            this.txtRenk.TabIndex = 15;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(40, 254);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(67, 13);
+            this.label12.TabIndex = 16;
+            this.label12.Text = "Koltuk Sayısı";
+            // 
+            // txtKoltukSayisi
+            // 
+            this.txtKoltukSayisi.Location = new System.Drawing.Point(114, 251);
+            this.txtKoltukSayisi.Name = "txtKoltukSayisi";
+            this.txtKoltukSayisi.Size = new System.Drawing.Size(100, 20);
+            this.txtKoltukSayisi.TabIndex = 17;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(40, 280);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(56, 13);
+            this.label11.TabIndex = 18;
+            this.label11.Text = "Yakıt Cinsi";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(40, 306);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(70, 13);
+            this.label10.TabIndex = 20;
+            this.label10.Text = "Silindir Hacmi";
+            // 
+            // txtSHacmi
+            // 
+            this.txtSHacmi.Location = new System.Drawing.Point(114, 303);
+            this.txtSHacmi.Name = "txtSHacmi";
+            this.txtSHacmi.Size = new System.Drawing.Size(100, 20);
+            this.txtSHacmi.TabIndex = 21;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(40, 332);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(33, 13);
+            this.label9.TabIndex = 22;
+            this.label9.Text = "Çekiş";
+            // 
+            // txtCekis
+            // 
+            this.txtCekis.Location = new System.Drawing.Point(114, 329);
+            this.txtCekis.Name = "txtCekis";
+            this.txtCekis.Size = new System.Drawing.Size(100, 20);
+            this.txtCekis.TabIndex = 23;
+            // 
+            // cbYakitCinsi
+            // 
+            this.cbYakitCinsi.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbYakitCinsi.DropDownWidth = 80;
+            this.cbYakitCinsi.FormattingEnabled = true;
+            this.cbYakitCinsi.Items.AddRange(new object[] {
+            "Dizel",
+            "Benzin",
+            "Benzin/LPG"});
+            this.cbYakitCinsi.Location = new System.Drawing.Point(211, 276);
+            this.cbYakitCinsi.Name = "cbYakitCinsi";
+            this.cbYakitCinsi.Size = new System.Drawing.Size(18, 21);
+            this.cbYakitCinsi.TabIndex = 40;
+            this.cbYakitCinsi.SelectedIndexChanged += new System.EventHandler(this.cbYakitCinsi_SelectedIndexChanged);
+            // 
+            // txtYakitCinsi
+            // 
+            this.txtYakitCinsi.Location = new System.Drawing.Point(114, 277);
+            this.txtYakitCinsi.Name = "txtYakitCinsi";
+            this.txtYakitCinsi.ReadOnly = true;
+            this.txtYakitCinsi.Size = new System.Drawing.Size(100, 20);
+            this.txtYakitCinsi.TabIndex = 42;
+            // 
+            // rbKayitSil
+            // 
+            this.rbKayitSil.AutoSize = true;
+            this.rbKayitSil.Location = new System.Drawing.Point(521, 146);
+            this.rbKayitSil.Name = "rbKayitSil";
+            this.rbKayitSil.Size = new System.Drawing.Size(76, 17);
+            this.rbKayitSil.TabIndex = 36;
+            this.rbKayitSil.TabStop = true;
+            this.rbKayitSil.Text = "Kayıt Silme";
+            this.rbKayitSil.UseVisualStyleBackColor = true;
+            this.rbKayitSil.CheckedChanged += new System.EventHandler(this.rbKayitSil_CheckedChanged);
+            // 
+            // btnSil
+            // 
+            this.btnSil.Location = new System.Drawing.Point(311, 176);
+            this.btnSil.Name = "btnSil";
+            this.btnSil.Size = new System.Drawing.Size(100, 43);
+            this.btnSil.TabIndex = 32;
+            this.btnSil.Text = "Sil";
+            this.btnSil.UseVisualStyleBackColor = true;
+            this.btnSil.Click += new System.EventHandler(this.btnSil_Click);
             // 
             // frmAracEkle
             // 
@@ -498,40 +498,40 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtPlaka;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txtYil;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txtRenk;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox txtKasaTipi;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox txtKm;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox txtLokasyon;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox txtCekis;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox txtSHacmi;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox txtKoltukSayisi;
-        private System.Windows.Forms.Label label12;
         private System.Windows.Forms.TextBox txtGunlukUcret;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.TextBox txtSasiNo;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Button btnKaydet;
-        private System.Windows.Forms.Button btnSil;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.RadioButton rbKayitEkle;
-        private System.Windows.Forms.RadioButton rbKayitSil;
         private System.Windows.Forms.RadioButton rbKayitDegistirme;
         private System.Windows.Forms.Button btnDegistir;
-        private System.Windows.Forms.ComboBox cbSanzimanTuru;
-        private System.Windows.Forms.ComboBox cbYakitCinsi;
         private System.Windows.Forms.TextBox txtSanzimanTuru;
-        private System.Windows.Forms.TextBox txtYakitCinsi;
         private System.Windows.Forms.Button btnAracGetir;
         private System.Windows.Forms.TextBox txtID;
+        private System.Windows.Forms.ComboBox cbSanzimanTuru;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txtYil;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox txtLokasyon;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox txtKm;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox txtKasaTipi;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox txtRenk;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.TextBox txtKoltukSayisi;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.TextBox txtSHacmi;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.TextBox txtCekis;
+        private System.Windows.Forms.ComboBox cbYakitCinsi;
+        private System.Windows.Forms.TextBox txtYakitCinsi;
+        private System.Windows.Forms.RadioButton rbKayitSil;
+        private System.Windows.Forms.Button btnSil;
     }
 }

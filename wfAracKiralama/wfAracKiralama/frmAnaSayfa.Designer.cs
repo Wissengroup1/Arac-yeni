@@ -96,19 +96,21 @@
             // bireyselMüşteriEkleToolStripMenuItem
             // 
             this.bireyselMüşteriEkleToolStripMenuItem.Name = "bireyselMüşteriEkleToolStripMenuItem";
-            this.bireyselMüşteriEkleToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
-            this.bireyselMüşteriEkleToolStripMenuItem.Text = "Bireysel Müşteri Ekle";
+            this.bireyselMüşteriEkleToolStripMenuItem.Size = new System.Drawing.Size(238, 22);
+            this.bireyselMüşteriEkleToolStripMenuItem.Text = "Bireysel Müşteri Ekle/Düzenle";
+            this.bireyselMüşteriEkleToolStripMenuItem.Click += new System.EventHandler(this.bireyselMüşteriEkleToolStripMenuItem_Click);
             // 
             // kurumsalMüşteriEkleToolStripMenuItem
             // 
             this.kurumsalMüşteriEkleToolStripMenuItem.Name = "kurumsalMüşteriEkleToolStripMenuItem";
-            this.kurumsalMüşteriEkleToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
-            this.kurumsalMüşteriEkleToolStripMenuItem.Text = "Kurumsal Müşteri Ekle";
+            this.kurumsalMüşteriEkleToolStripMenuItem.Size = new System.Drawing.Size(238, 22);
+            this.kurumsalMüşteriEkleToolStripMenuItem.Text = "Kurumsal Müşteri Ekle/Düzenle";
+            this.kurumsalMüşteriEkleToolStripMenuItem.Click += new System.EventHandler(this.kurumsalMüşteriEkleToolStripMenuItem_Click);
             // 
             // müşteriSorgulamaToolStripMenuItem
             // 
             this.müşteriSorgulamaToolStripMenuItem.Name = "müşteriSorgulamaToolStripMenuItem";
-            this.müşteriSorgulamaToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
+            this.müşteriSorgulamaToolStripMenuItem.Size = new System.Drawing.Size(238, 22);
             this.müşteriSorgulamaToolStripMenuItem.Text = "Müşteri Sorgulama";
             this.müşteriSorgulamaToolStripMenuItem.Click += new System.EventHandler(this.müşteriSorgulamaToolStripMenuItem_Click);
             // 

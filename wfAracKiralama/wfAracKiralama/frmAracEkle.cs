@@ -121,6 +121,7 @@ namespace wfAracKiralama
 
         private void Temizle()
         {
+            txtID.Clear();
             txtMarka.Clear();
             txtModel.Clear();
             txtPlaka.Clear();
@@ -182,6 +183,7 @@ namespace wfAracKiralama
                 if (a.AracKontrol(txtSasiNo.Text))
                 {
                     MessageBox.Show("Önceden sisteme girilmiş!", "Zaten Kayıtlı Araç");
+                    Temizle();
                     txtMarka.Focus();
                 }
                 else
