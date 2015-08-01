@@ -202,7 +202,7 @@ namespace wfAracKiralama
                     a.Cekis = txtCekis.Text;
                     a.SasiNo = txtSasiNo.Text;
                     a.SanzimanTuru = txtSanzimanTuru.Text;
-                    a.GunlukUcret = Convert.ToDecimal(txtGunlukUcret.Text);
+                    a.GunlukUcret = Convert.ToInt32(txtGunlukUcret.Text);
 
 
                     bool Sonuc = a.AracEkle(a);
@@ -261,7 +261,7 @@ namespace wfAracKiralama
                 a.Cekis = txtCekis.Text;
                 a.SasiNo = txtSasiNo.Text;
                 a.SanzimanTuru = txtSanzimanTuru.Text;
-                a.GunlukUcret = Convert.ToDecimal(txtGunlukUcret.Text);
+                a.GunlukUcret = Convert.ToInt32(txtGunlukUcret.Text);
                 if (a.AracGuncelle(a))
                 {
                     MessageBox.Show("Değişiklikler Yapıldı.");

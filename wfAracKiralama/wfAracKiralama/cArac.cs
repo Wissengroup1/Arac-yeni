@@ -27,7 +27,7 @@ namespace wfAracKiralama
         private string _cekis;
         private string _sasiNo;
         private string _sanzimanTuru;
-        private decimal _gunlukUcret;
+        private int _gunlukUcret;
         private bool _kiralanabilir;
 
         
@@ -136,7 +136,7 @@ namespace wfAracKiralama
         }
 
 
-        public decimal GunlukUcret
+        public int GunlukUcret
         {
             get { return _gunlukUcret; }
             set { _gunlukUcret = value; }
@@ -179,7 +179,7 @@ namespace wfAracKiralama
                     a._cekis = dr["Cekis"].ToString();
                     a._sasiNo = dr["SasiNo"].ToString();
                     a._sanzimanTuru = dr["SanzimanTuru"].ToString();
-                    a._gunlukUcret = Convert.ToDecimal(dr["GunlukUcret"]);
+                    a._gunlukUcret = Convert.ToInt32(dr["GunlukUcret"]);
                     a._kiralanabilir = Convert.ToBoolean(dr["Kiralanabilir"]);
                     list.Add(a);
                 }
@@ -233,7 +233,7 @@ namespace wfAracKiralama
                         a._cekis = dr["Cekis"].ToString();
                         a._sasiNo = dr["SasiNo"].ToString();
                         a._sanzimanTuru = dr["SanzimanTuru"].ToString();
-                        a._gunlukUcret = Convert.ToDecimal(dr["GunlukUcret"]);
+                        a._gunlukUcret = Convert.ToInt32(dr["GunlukUcret"]);
                         a._kiralanabilir = Convert.ToBoolean(dr["Kiralanabilir"]);
                         list.Add(a);
 
@@ -372,11 +372,11 @@ namespace wfAracKiralama
                     a.Renk = dr[8].ToString();
                     a.KoltukSayisi = dr[9].ToString();
                     a.YakitCinsi = dr[10].ToString();
-                    a.SilindirHacmi = Convert.ToInt32(dr[11].ToString());
+                    a.SilindirHacmi = Convert.ToInt32(dr[11]);
                     a.Cekis = dr[12].ToString();
                     a.SasiNo = dr[13].ToString();
                     a.SanzimanTuru = dr[14].ToString();
-                    a.GunlukUcret = Convert.ToDecimal(dr[15].ToString());
+                    a.GunlukUcret = Convert.ToInt32(dr[15]);
                 }
             }
             catch (SqlException ex)
