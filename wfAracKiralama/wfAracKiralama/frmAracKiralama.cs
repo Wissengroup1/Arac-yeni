@@ -36,7 +36,7 @@ namespace wfAracKiralama
             if (b + 1 > 0)
             {
                 kiragun = b + 1;
-                txtTutar.Text = Convert.ToString(kiragun*Convert.ToDecimal(txtGunlukUcret.Text)) + "TL";
+                txtTutar.Text = Convert.ToString(kiragun*Convert.ToInt32(txtGunlukUcret.Text));
             }
 
             else 
@@ -157,6 +157,22 @@ namespace wfAracKiralama
         private void btnAracEkle_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnKirala_Click(object sender, EventArgs e)
+        {
+            cKira k = new cKira();
+
+            k.MusteriNo = Convert.ToInt32(txtMusteriID.Text);
+            k.AracNo = Convert.ToInt32(txtAracID.Text);
+            k.KirayaGidisTarihi =Convert.ToDateTime(txtGidis.Text);
+            k.KiradanDonusTarihi = Convert.ToDateTime(txtDonus.Text);
+            k.Tutar = Convert.ToInt32(txtTutar.Text);
+
+            k.BireyselKirala(k);
+            dgvKiralama.DataSource = k.KiralananGetir();
+            dgvKiralama.Columns["FirmaNo"].Width = 0;
+            
         }
     }
 }

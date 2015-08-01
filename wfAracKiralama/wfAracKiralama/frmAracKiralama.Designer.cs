@@ -84,6 +84,7 @@
             this.btnKirala.TabIndex = 10;
             this.btnKirala.Text = "Kirala";
             this.btnKirala.UseVisualStyleBackColor = true;
+            this.btnKirala.Click += new System.EventHandler(this.btnKirala_Click);
             // 
             // btnSil
             // 
