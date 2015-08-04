@@ -1,0 +1,97 @@
+C:\Users\wissen\Documents\HİS-NET503\wfAracKiralama\wfAracKiralama\bin\Debug\wfAracKiralama.exe.config
+C:\Users\wissen\Documents\HİS-NET503\wfAracKiralama\wfAracKiralama\bin\Debug\wfAracKiralama.exe
+C:\Users\wissen\Documents\HİS-NET503\wfAracKiralama\wfAracKiralama\bin\Debug\wfAracKiralama.pdb
+C:\Users\wissen\Documents\HİS-NET503\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.csprojResolveAssemblyReference.cache
+C:\Users\wissen\Documents\HİS-NET503\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.Properties.Resources.resources
+C:\Users\wissen\Documents\HİS-NET503\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.csproj.GenerateResource.Cache
+C:\Users\wissen\Documents\HİS-NET503\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.exe
+C:\Users\wissen\Documents\HİS-NET503\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.pdb
+C:\Users\wissen\Documents\HİS-NET503\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.frmAnaSayfa.resources
+C:\Users\wissen\Documents\HİS-NET503\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.frmAracKiralama.resources
+C:\Users\wissen\Documents\HİS-NET503\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.frmMusteriSorgulama.resources
+C:\Users\wissen\Documents\HİS-NET503\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.frmAracSorgulama.resources
+C:\Users\Nuri\Documents\Visual Studio 2012\Projects\wfAracKiralama\wfAracKiralama\bin\Debug\wfAracKiralama.exe.config
+C:\Users\Nuri\Documents\Visual Studio 2012\Projects\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.exe
+C:\Users\Nuri\Documents\Visual Studio 2012\Projects\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.pdb
+C:\Users\Nuri\Documents\Visual Studio 2012\Projects\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.csprojResolveAssemblyReference.cache
+C:\Users\Nuri\Documents\Visual Studio 2012\Projects\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.frmAnaSayfa.resources
+C:\Users\Nuri\Documents\Visual Studio 2012\Projects\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.frmAracKiralama.resources
+C:\Users\Nuri\Documents\Visual Studio 2012\Projects\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.frmAracSorgulama.resources
+C:\Users\Nuri\Documents\Visual Studio 2012\Projects\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.frmMusteriSorgulama.resources
+C:\Users\Nuri\Documents\Visual Studio 2012\Projects\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.Properties.Resources.resources
+C:\Users\Nuri\Documents\Visual Studio 2012\Projects\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.csproj.GenerateResource.Cache
+C:\Users\Nuri\Documents\Visual Studio 2012\Projects\wfAracKiralama\wfAracKiralama\bin\Debug\wfAracKiralama.exe
+C:\Users\Nuri\Documents\Visual Studio 2012\Projects\wfAracKiralama\wfAracKiralama\bin\Debug\wfAracKiralama.pdb
+C:\Users\wissen\Desktop\wfAracKiralama\wfAracKiralama\bin\Debug\wfAracKiralama.exe.config
+C:\Users\wissen\Desktop\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.exe
+C:\Users\wissen\Desktop\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.pdb
+C:\Users\wissen\Desktop\wfAracKiralama\wfAracKiralama\bin\Debug\wfAracKiralama.exe
+C:\Users\wissen\Desktop\wfAracKiralama\wfAracKiralama\bin\Debug\wfAracKiralama.pdb
+C:\Users\wissen\Desktop\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.csprojResolveAssemblyReference.cache
+C:\Users\wissen\Desktop\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.frmAnaSayfa.resources
+C:\Users\wissen\Desktop\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.frmAracKiralama.resources
+C:\Users\wissen\Desktop\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.frmAracSorgulama.resources
+C:\Users\wissen\Desktop\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.frmMusteriSorgulama.resources
+C:\Users\wissen\Desktop\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.Properties.Resources.resources
+C:\Users\wissen\Desktop\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.csproj.GenerateResource.Cache
+C:\Users\wissen\Desktop\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.frmAracEkle.resources
+C:\Users\Nuri\Documents\Visual Studio 2012\Projects\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.frmAracEkle.resources
+C:\Users\Nuri\Documents\GitHub\Arac-yeni\wfAracKiralama\wfAracKiralama\bin\Debug\wfAracKiralama.exe.config
+C:\Users\Nuri\Documents\GitHub\Arac-yeni\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.exe
+C:\Users\Nuri\Documents\GitHub\Arac-yeni\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.pdb
+C:\Users\Nuri\Documents\GitHub\Arac-yeni\wfAracKiralama\wfAracKiralama\bin\Debug\wfAracKiralama.exe
+C:\Users\Nuri\Documents\GitHub\Arac-yeni\wfAracKiralama\wfAracKiralama\bin\Debug\wfAracKiralama.pdb
+C:\Users\Nuri\Documents\GitHub\Arac-yeni\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.csprojResolveAssemblyReference.cache
+C:\Users\Nuri\Documents\GitHub\Arac-yeni\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.frmAnaSayfa.resources
+C:\Users\Nuri\Documents\GitHub\Arac-yeni\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.frmAracEkle.resources
+C:\Users\Nuri\Documents\GitHub\Arac-yeni\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.frmAracKiralama.resources
+C:\Users\Nuri\Documents\GitHub\Arac-yeni\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.frmAracSorgulama.resources
+C:\Users\Nuri\Documents\GitHub\Arac-yeni\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.frmMusteriSorgulama.resources
+C:\Users\Nuri\Documents\GitHub\Arac-yeni\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.Properties.Resources.resources
+C:\Users\Nuri\Documents\GitHub\Arac-yeni\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.csproj.GenerateResource.Cache
+C:\Users\KUBRA\Documents\GitHub\Arac-yeni\wfAracKiralama\wfAracKiralama\bin\Debug\wfAracKiralama.exe.config
+C:\Users\KUBRA\Documents\GitHub\Arac-yeni\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.exe
+C:\Users\KUBRA\Documents\GitHub\Arac-yeni\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.pdb
+C:\Users\KUBRA\Desktop\Kurs\Arac-yeni\wfAracKiralama\wfAracKiralama\bin\Debug\wfAracKiralama.exe.config
+C:\Users\KUBRA\Desktop\Kurs\Arac-yeni\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.exe
+C:\Users\KUBRA\Desktop\Kurs\Arac-yeni\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.pdb
+C:\Users\KUBRA\Desktop\Kurs\Arac-yeni\wfAracKiralama\wfAracKiralama\bin\Debug\wfAracKiralama.exe
+C:\Users\KUBRA\Desktop\Kurs\Arac-yeni\wfAracKiralama\wfAracKiralama\bin\Debug\wfAracKiralama.pdb
+C:\Users\KUBRA\Desktop\Kurs\Arac-yeni\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.csprojResolveAssemblyReference.cache
+C:\Users\KUBRA\Desktop\Kurs\Arac-yeni\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.frmAnaSayfa.resources
+C:\Users\KUBRA\Desktop\Kurs\Arac-yeni\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.frmAracEkle.resources
+C:\Users\KUBRA\Desktop\Kurs\Arac-yeni\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.frmAracKiralama.resources
+C:\Users\KUBRA\Desktop\Kurs\Arac-yeni\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.frmAracSorgulama.resources
+C:\Users\KUBRA\Desktop\Kurs\Arac-yeni\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.frmMusteriSorgulama.resources
+C:\Users\KUBRA\Desktop\Kurs\Arac-yeni\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.Properties.Resources.resources
+C:\Users\KUBRA\Desktop\Kurs\Arac-yeni\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.csproj.GenerateResource.Cache
+C:\Users\wissen\Documents\GitHub\Arac-yeni\wfAracKiralama\wfAracKiralama\bin\Debug\wfAracKiralama.exe.config
+C:\Users\wissen\Documents\GitHub\Arac-yeni\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.exe
+C:\Users\wissen\Documents\GitHub\Arac-yeni\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.pdb
+C:\Users\wissen\Documents\GitHub\Arac-yeni\wfAracKiralama\wfAracKiralama\bin\Debug\wfAracKiralama.exe
+C:\Users\wissen\Documents\GitHub\Arac-yeni\wfAracKiralama\wfAracKiralama\bin\Debug\wfAracKiralama.pdb
+C:\Users\wissen\Documents\GitHub\Arac-yeni\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.csprojResolveAssemblyReference.cache
+C:\Users\wissen\Documents\GitHub\Arac-yeni\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.frmAnaSayfa.resources
+C:\Users\wissen\Documents\GitHub\Arac-yeni\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.frmAracEkle.resources
+C:\Users\wissen\Documents\GitHub\Arac-yeni\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.frmAracKiralama.resources
+C:\Users\wissen\Documents\GitHub\Arac-yeni\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.frmAracSorgulama.resources
+C:\Users\wissen\Documents\GitHub\Arac-yeni\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.frmMusteriSorgulama.resources
+C:\Users\wissen\Documents\GitHub\Arac-yeni\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.Properties.Resources.resources
+C:\Users\wissen\Documents\GitHub\Arac-yeni\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.csproj.GenerateResource.Cache
+C:\Users\Nuri\Documents\GitHub\Arac-yeni\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.frmBireyselMüşteriEkle.resources
+C:\Users\Nuri\Documents\GitHub\Arac-yeni\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.frmKurumsalMusteriEkle.resources
+C:\Users\Nuri\Desktop\wfAracKiralama\wfAracKiralama\bin\Debug\wfAracKiralama.exe.config
+C:\Users\Nuri\Desktop\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.exe
+C:\Users\Nuri\Desktop\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.pdb
+C:\Users\Nuri\Desktop\wfAracKiralama\wfAracKiralama\bin\Debug\wfAracKiralama.exe
+C:\Users\Nuri\Desktop\wfAracKiralama\wfAracKiralama\bin\Debug\wfAracKiralama.pdb
+C:\Users\Nuri\Desktop\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.csprojResolveAssemblyReference.cache
+C:\Users\Nuri\Desktop\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.frmAnaSayfa.resources
+C:\Users\Nuri\Desktop\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.frmAracEkle.resources
+C:\Users\Nuri\Desktop\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.frmAracKiralama.resources
+C:\Users\Nuri\Desktop\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.frmAracSorgulama.resources
+C:\Users\Nuri\Desktop\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.frmBireyselMüşteriEkle.resources
+C:\Users\Nuri\Desktop\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.frmKurumsalMusteriEkle.resources
+C:\Users\Nuri\Desktop\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.frmMusteriSorgulama.resources
+C:\Users\Nuri\Desktop\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.Properties.Resources.resources
+C:\Users\Nuri\Desktop\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.csproj.GenerateResource.Cache
