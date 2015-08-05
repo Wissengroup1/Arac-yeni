@@ -136,21 +136,20 @@ namespace wfAracKiralama
 
         public List<cKira> KiralananGetirBireysel()
         {
-
             List<cKira> list = new List<cKira>();
             SqlConnection conn = new SqlConnection(cGenel.connStr);
-            SqlCommand comm = new SqlCommand("Select * from Kiralama where Silindi=0", conn);
+            SqlCommand comm = new SqlCommand("Select KiraID,MusteriNo,AracNo,KirayaGidisTarihi,KiradanDonusTarihi,Tutar,KiraDetayID from Kiralama where Silindi=0 and MusteriNo not like 'NULL'", conn);
             if (conn.State == ConnectionState.Closed) conn.Open();
             SqlDataReader dr;
             try
-            {
+            {              
                 dr = comm.ExecuteReader();
                 while (dr.Read())
                 {
                     cKira a = new cKira();
-                    a._kiraID = Convert.ToInt32(dr["KiraID"]);
+                    a._kiraID = Convert.ToInt32(dr["KiraID"]);                   
                     a._musteriNo = Convert.ToInt32(dr["MusteriNo"]);
-                    //a._firmaNo = Convert.ToInt32(dr["FirmaNo"]);
+                    //  a._firmaNo = Convert.ToInt32(dr["FirmaNo"]);
                     a._aracNo = Convert.ToInt32(dr["AracNo"]);
                     a._kirayaGidisTarihi = Convert.ToDateTime(dr["KirayaGidisTarihi"]);
                     a._kiradanDonusTarihi = Convert.ToDateTime(dr["KiradanDonusTarihi"]);
@@ -168,7 +167,6 @@ namespace wfAracKiralama
 
         public List<cKira> KiralananGetirKurumsal(cKira a)
         {
-
             List<cKira> list = new List<cKira>();
             SqlConnection conn = new SqlConnection(cGenel.connStr);
             SqlCommand comm = new SqlCommand("Select * from Kiralama where Silindi=0", conn);

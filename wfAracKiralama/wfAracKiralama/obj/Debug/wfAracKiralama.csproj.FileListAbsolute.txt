@@ -95,3 +95,5 @@ C:\Users\Nuri\Desktop\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.frm
 C:\Users\Nuri\Desktop\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.frmMusteriSorgulama.resources
 C:\Users\Nuri\Desktop\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.Properties.Resources.resources
 C:\Users\Nuri\Desktop\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.csproj.GenerateResource.Cache
+C:\Users\wissen\Documents\GitHub\Arac-yeni\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.frmBireyselMüşteriEkle.resources
+C:\Users\wissen\Documents\GitHub\Arac-yeni\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.frmKurumsalMusteriEkle.resources
