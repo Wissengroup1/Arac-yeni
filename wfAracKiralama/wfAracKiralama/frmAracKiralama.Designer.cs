@@ -32,7 +32,7 @@
             this.btnHesapla = new System.Windows.Forms.Button();
             this.btnKirala = new System.Windows.Forms.Button();
             this.btnSil = new System.Windows.Forms.Button();
-            this.btnDegistir = new System.Windows.Forms.Button();
+            this.btnYazdir = new System.Windows.Forms.Button();
             this.btnMusteriGetir = new System.Windows.Forms.Button();
             this.dgvKiralama = new System.Windows.Forms.DataGridView();
             this.txtMusteriAd = new System.Windows.Forms.TextBox();
@@ -74,6 +74,10 @@
             this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader9 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.label5 = new System.Windows.Forms.Label();
+            this.ppdFatura = new System.Windows.Forms.PrintPreviewDialog();
+            this.pdocFatura = new System.Drawing.Printing.PrintDocument();
+            this.chOzelIndirim = new System.Windows.Forms.CheckBox();
+            this.cbOzelIndirim = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvKiralama)).BeginInit();
             this.SuspendLayout();
             // 
@@ -99,21 +103,23 @@
             // 
             // btnSil
             // 
-            this.btnSil.Location = new System.Drawing.Point(227, 421);
+            this.btnSil.Location = new System.Drawing.Point(146, 421);
             this.btnSil.Name = "btnSil";
             this.btnSil.Size = new System.Drawing.Size(75, 33);
             this.btnSil.TabIndex = 11;
             this.btnSil.Text = "Sil";
             this.btnSil.UseVisualStyleBackColor = true;
+            this.btnSil.Click += new System.EventHandler(this.btnSil_Click);
             // 
-            // btnDegistir
+            // btnYazdir
             // 
-            this.btnDegistir.Location = new System.Drawing.Point(146, 421);
-            this.btnDegistir.Name = "btnDegistir";
-            this.btnDegistir.Size = new System.Drawing.Size(75, 33);
-            this.btnDegistir.TabIndex = 12;
-            this.btnDegistir.Text = "Değiştir";
-            this.btnDegistir.UseVisualStyleBackColor = true;
+            this.btnYazdir.Location = new System.Drawing.Point(255, 421);
+            this.btnYazdir.Name = "btnYazdir";
+            this.btnYazdir.Size = new System.Drawing.Size(75, 33);
+            this.btnYazdir.TabIndex = 12;
+            this.btnYazdir.Text = "Fatura Çıkar";
+            this.btnYazdir.UseVisualStyleBackColor = true;
+            this.btnYazdir.Click += new System.EventHandler(this.btnYazdir_Click);
             // 
             // btnMusteriGetir
             // 
@@ -395,12 +401,15 @@
             this.columnHeader7,
             this.columnHeader8,
             this.columnHeader9});
-            this.lvAraclar.Location = new System.Drawing.Point(377, 287);
+            this.lvAraclar.FullRowSelect = true;
+            this.lvAraclar.Location = new System.Drawing.Point(377, 284);
+            this.lvAraclar.MultiSelect = false;
             this.lvAraclar.Name = "lvAraclar";
             this.lvAraclar.Size = new System.Drawing.Size(557, 168);
             this.lvAraclar.TabIndex = 45;
             this.lvAraclar.UseCompatibleStateImageBehavior = false;
             this.lvAraclar.View = System.Windows.Forms.View.Details;
+            this.lvAraclar.Click += new System.EventHandler(this.lvAraclar_Click);
             // 
             // columnHeader1
             // 
@@ -452,11 +461,55 @@
             this.label5.TabIndex = 46;
             this.label5.Text = "TL";
             // 
+            // ppdFatura
+            // 
+            this.ppdFatura.AutoScrollMargin = new System.Drawing.Size(0, 0);
+            this.ppdFatura.AutoScrollMinSize = new System.Drawing.Size(0, 0);
+            this.ppdFatura.ClientSize = new System.Drawing.Size(400, 300);
+            this.ppdFatura.Document = this.pdocFatura;
+            this.ppdFatura.Enabled = true;
+            this.ppdFatura.Icon = ((System.Drawing.Icon)(resources.GetObject("ppdFatura.Icon")));
+            this.ppdFatura.Name = "ppdFatura";
+            this.ppdFatura.Visible = false;
+            // 
+            // pdocFatura
+            // 
+            this.pdocFatura.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.pdocFatura_PrintPage);
+            // 
+            // chOzelIndirim
+            // 
+            this.chOzelIndirim.AutoSize = true;
+            this.chOzelIndirim.Location = new System.Drawing.Point(854, 261);
+            this.chOzelIndirim.Name = "chOzelIndirim";
+            this.chOzelIndirim.Size = new System.Drawing.Size(15, 14);
+            this.chOzelIndirim.TabIndex = 47;
+            this.chOzelIndirim.UseVisualStyleBackColor = true;
+            this.chOzelIndirim.CheckedChanged += new System.EventHandler(this.chOzelIndirim_CheckedChanged);
+            // 
+            // cbOzelIndirim
+            // 
+            this.cbOzelIndirim.FormattingEnabled = true;
+            this.cbOzelIndirim.Items.AddRange(new object[] {
+            "%5",
+            "%10",
+            "%15",
+            "%20",
+            "%25",
+            "%30",
+            "%50"});
+            this.cbOzelIndirim.Location = new System.Drawing.Point(13, 343);
+            this.cbOzelIndirim.Name = "cbOzelIndirim";
+            this.cbOzelIndirim.Size = new System.Drawing.Size(83, 21);
+            this.cbOzelIndirim.TabIndex = 48;
+            this.cbOzelIndirim.Visible = false;
+            // 
             // frmAracKiralama
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(946, 481);
+            this.Controls.Add(this.cbOzelIndirim);
+            this.Controls.Add(this.chOzelIndirim);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.lvAraclar);
             this.Controls.Add(this.btnAracEkle);
@@ -489,7 +542,7 @@
             this.Controls.Add(this.txtMusteriAd);
             this.Controls.Add(this.dgvKiralama);
             this.Controls.Add(this.btnMusteriGetir);
-            this.Controls.Add(this.btnDegistir);
+            this.Controls.Add(this.btnYazdir);
             this.Controls.Add(this.btnSil);
             this.Controls.Add(this.btnKirala);
             this.Controls.Add(this.btnHesapla);
@@ -508,7 +561,7 @@
         private System.Windows.Forms.Button btnHesapla;
         private System.Windows.Forms.Button btnKirala;
         private System.Windows.Forms.Button btnSil;
-        private System.Windows.Forms.Button btnDegistir;
+        private System.Windows.Forms.Button btnYazdir;
         private System.Windows.Forms.Button btnMusteriGetir;
         private System.Windows.Forms.DataGridView dgvKiralama;
         private System.Windows.Forms.TextBox txtMusteriAd;
@@ -550,5 +603,9 @@
         private System.Windows.Forms.ColumnHeader columnHeader8;
         private System.Windows.Forms.ColumnHeader columnHeader9;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.PrintPreviewDialog ppdFatura;
+        private System.Drawing.Printing.PrintDocument pdocFatura;
+        private System.Windows.Forms.CheckBox chOzelIndirim;
+        private System.Windows.Forms.ComboBox cbOzelIndirim;
     }
 }

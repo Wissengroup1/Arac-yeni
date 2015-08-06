@@ -98,3 +98,4 @@ C:\Users\Nuri\Desktop\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.csp
 C:\Users\wissen\Documents\GitHub\Arac-yeni\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.frmBireyselMüşteriEkle.resources
 C:\Users\wissen\Documents\GitHub\Arac-yeni\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.frmKurumsalMusteriEkle.resources
 C:\Users\Nuri\Documents\GitHub\Arac-yeni\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.frmKiraSonlandirma.resources
+C:\Users\wissen\Documents\GitHub\Arac-yeni\wfAracKiralama\wfAracKiralama\obj\Debug\wfAracKiralama.frmKiraSonlandirma.resources

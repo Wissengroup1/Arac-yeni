@@ -8,7 +8,7 @@ namespace wfAracKiralama
 {
     class cGenel
     {
-        public static string connStr = "Data Source=ACER; Initial Catalog=AraçKiralama; uid=sa; pwd=12345678";
+        public static string connStr = "Data Source=WISSEN232; Initial Catalog=AraçKiralama; uid=sa; pwd=12345";
 
         public static string MusteriTipi ="";
         public static string FormMusteri = "";
@@ -17,6 +17,7 @@ namespace wfAracKiralama
         public static int KurumsalMusteriID = 0;
         public static int KiraDetayKurumsal = 0;
         public static int AracEkle = 0;
+        public static int[] aracid = new int[20];
 
     }
 }

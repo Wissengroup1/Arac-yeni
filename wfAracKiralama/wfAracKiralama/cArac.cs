@@ -152,7 +152,6 @@ namespace wfAracKiralama
 
         public List<cArac> AraclariGetir()
         {
-
             List<cArac> list = new List<cArac>();
             SqlConnection conn = new SqlConnection(cGenel.connStr);
             SqlCommand comm = new SqlCommand("Select * from Arac where Silindi=0 and Kiralanabilir=1", conn);
@@ -164,24 +163,27 @@ namespace wfAracKiralama
                 while (dr.Read())
                 {
                     cArac a = new cArac();
-                    a._aracID = Convert.ToInt32(dr["AracID"]);
-                    a._marka = dr["Marka"].ToString();
-                    a._model = dr["Model"].ToString();
-                    a._plaka = dr["Plaka"].ToString();
-                    a._lokasyon = dr["Lokasyon"].ToString();
-                    a._yil = Convert.ToInt32(dr["Yil"]);
-                    a._km = Convert.ToInt32(dr["Km"]);
-                    a._kasaTipi = dr["KasaTipi"].ToString();
-                    a._renk = dr["Renk"].ToString();
-                    a._koltukSayisi = dr["KoltukSayisi"].ToString();
-                    a._yakitCinsi = dr["YakitCinsi"].ToString();
-                    a._silindirHacmi = Convert.ToInt32(dr["SilindirHacmi"]);
-                    a._cekis = dr["Cekis"].ToString();
-                    a._sasiNo = dr["SasiNo"].ToString();
-                    a._sanzimanTuru = dr["SanzimanTuru"].ToString();
-                    a._gunlukUcret = Convert.ToInt32(dr["GunlukUcret"]);
-                    a._kiralanabilir = Convert.ToBoolean(dr["Kiralanabilir"]);
-                    list.Add(a);
+                    if (Convert.ToInt32(dr["AracID"]) != cGenel.aracid[0] && Convert.ToInt32(dr["AracID"]) != cGenel.aracid[1] && Convert.ToInt32(dr["AracID"]) != cGenel.aracid[2] && Convert.ToInt32(dr["AracID"]) != cGenel.aracid[3] && Convert.ToInt32(dr["AracID"]) != cGenel.aracid[4] && Convert.ToInt32(dr["AracID"]) != cGenel.aracid[5] && Convert.ToInt32(dr["AracID"]) != cGenel.aracid[6])
+                    {
+                        a._aracID = Convert.ToInt32(dr["AracID"]);
+                        a._marka = dr["Marka"].ToString();
+                        a._model = dr["Model"].ToString();
+                        a._plaka = dr["Plaka"].ToString();
+                        a._lokasyon = dr["Lokasyon"].ToString();
+                        a._yil = Convert.ToInt32(dr["Yil"]);
+                        a._km = Convert.ToInt32(dr["Km"]);
+                        a._kasaTipi = dr["KasaTipi"].ToString();
+                        a._renk = dr["Renk"].ToString();
+                        a._koltukSayisi = dr["KoltukSayisi"].ToString();
+                        a._yakitCinsi = dr["YakitCinsi"].ToString();
+                        a._silindirHacmi = Convert.ToInt32(dr["SilindirHacmi"]);
+                        a._cekis = dr["Cekis"].ToString();
+                        a._sasiNo = dr["SasiNo"].ToString();
+                        a._sanzimanTuru = dr["SanzimanTuru"].ToString();
+                        a._gunlukUcret = Convert.ToInt32(dr["GunlukUcret"]);
+                        a._kiralanabilir = Convert.ToBoolean(dr["Kiralanabilir"]);
+                        list.Add(a);
+                    }
                 }
             }
             catch (SqlException ex)
